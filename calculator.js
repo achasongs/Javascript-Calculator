@@ -12,7 +12,6 @@ let Result = () => {
     catch(err) {
         alert("Enter a valid input");
     }
-
 }
 
 function clr(){
@@ -22,6 +21,9 @@ function clr(){
 function del(){
 
     result.value = result.value.slice(0, -1); 
+}
+function sqr() {
+    result.value = Math.sqrt(result.value);
 }
 
 

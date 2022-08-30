@@ -46,22 +46,36 @@ button{
     font-weight: bold;
     font-size: 20px;
 }
+button:hover{
+    background-color: #fff;
+    box-shadow: none;
+}
 .equal {
     width: 120px;
     border-radius: 42px;
     /* box-shadow: inset 6px 6px 13px #fff, 6px 6px 13px rgba(0,0,0,0.6); */
-    box-shadow: 6px 6px 13px #fff, 6px 6px 13px rgba(0,0,0,0.6);
-    background-color: rgb(26, 207, 26);
+    box-shadow: 6px 2px 13px #fff, 6px 2px 13px rgba(0,0,0,0.6);
+    background-color: rgb(13, 136, 13);
     color: #ecf0f3;
     font-size: 35px;
+}
+.equal:hover{
+    background-color: white;
+    color: #000;
 }
 .clear{
     background-color: red !important;
     box-shadow: 6px 6px 13px #fff, 6px 6px 13px rgba(233,150,122,0.6);
     color: #fff;
 }
+.clear:hover{
+    border: 3px dashed white;
+}
 .del{
     background-color: rgb(243, 160, 6) !important;
     box-shadow: 6px 6px 13px #fff,  6px 6px 13px rgba(255,160,122,0.6);
     color: #fff;
+}
+.del:hover{
+    border: 3px dashed white;
 }
